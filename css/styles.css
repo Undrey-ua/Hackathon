@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .page-header {
+    background-image: url(../img/BG-desktop.png);
+
+  }
+  
+  
+  
+  .site-logo {
+    display: block;
+  }
+  /* site navigation */
+.site-navigation {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    list-style: none;
+  }
+  
+  .site-navigation a {
+    display: flex;
+    justify-content: space-between;
+    color:black;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 16px;
+    transition: color 0.2s linear;
+  }
+  
+  .site-navigation a:hover,
+  .site-navigation a:focus {
+    color: #e84545;
+  }
